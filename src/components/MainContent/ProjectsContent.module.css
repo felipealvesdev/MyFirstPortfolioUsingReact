@@ -1,0 +1,34 @@
+.containerMainContent{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background-color: #222831;
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.projectDescription{
+    height: 25vh;
+    margin-bottom: 10vh;
+    color: #FFCC70;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.projectCards{
+    padding-top: 1vh;
+    height: 120vh;
+    width: 100%;
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}

@@ -1,0 +1,33 @@
+.globalContainer{
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    font-size: 1.4vh;
+    transition: all 300ms ease-in-out;
+}
+.toggleButton{
+    background: none;
+    border-style: none;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleButton img{
+    transition: all 300ms ease-in-out;
+    padding-left: 0.2vw;
+    width: 100%;
+    height: 2vh;
+    border-radius: 5vw;
+}
+
+.toggleButton img:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+

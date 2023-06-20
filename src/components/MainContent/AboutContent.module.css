@@ -1,0 +1,111 @@
+.containerMainContent{
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    overflow: hidden;
+}
+
+.containerAboutMe{
+    height: 35vh;
+    width: 100vw;
+    padding: 0 5vw;
+    background-color: #222831;
+    color: #FFD369;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease-in-out;
+}
+
+
+.containerAboutMe h1{
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+}
+
+.containerAboutMe p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.containerGlobalGetToKnowMe{
+    padding: 0 10vw;
+    height: 70vh;
+    width: 100%;
+    background-color: #393E46;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    transition: all 300ms ease-in-out;
+}
+.containerGlobalGetToKnowMe:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    padding-top: 15vh;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+.card h1{
+    color: #FFD369;
+}
+
+.cardContent{
+    margin-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 5vw;
+    display: flex;
+    color: #EEEEEE;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.cardContent span{
+    font-size: 8vh;
+    margin: 0 3vw;
+    transition: all 300ms ease-in-out;
+}
+
+.htmlIcon{
+    color: #e34c26;
+}
+
+.css3Icon{
+    color: #2965f1;
+}
+
+.jsIcon{
+    color: #F0DB4F;
+}
+
+.reactIcon{
+    color:  #61dbfb;
+}
+
+.htmlIcon:hover,
+.css3Icon:hover,
+.jsIcon:hover,
+.reactIcon:hover{
+    transform: scale(1.2);
+}

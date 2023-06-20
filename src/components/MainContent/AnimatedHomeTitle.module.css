@@ -1,0 +1,27 @@
+.globalContainer{
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #FFD369;
+}
+
+.globalContainer span{
+    margin: 0 2vw;
+}
+
+.title{
+    font-size: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mappedTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

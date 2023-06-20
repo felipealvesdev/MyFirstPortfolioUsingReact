@@ -1,0 +1,92 @@
+.containerMainContent{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    margin: 2vh;
+    width: 80%;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 1vw;
+    background-color:#222831;
+    box-shadow: 0px 0px 5px #FFD369;
+    color: #FFD369;
+}
+
+.descriptionText{
+    color: #EEEEEE;
+}
+
+.photoContainer{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.photoContainer img{
+    height: 100%;
+}
+
+.descriptionContainer{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.descriptionContainer h1{
+    font-style: italic;
+    font-size: 4vh;
+}
+
+.descriptionContainer p{
+    transition: all 300ms ease-in-out;
+    font-size: 2vh;
+}
+
+.titleContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.UpAndDownButton{
+    border-width: 0;
+    background: none;
+    font-size: 2vh;
+    color: #EEEEEE;
+    transition: all 300ms ease-in-out;
+}
+
+.UpAndDownButton:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    color:#FFD369;
+}
+
+.descriptionText{
+    transition: all 2s ease-in-out;
+}
+
+.descriptionText2{
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: row;
+}
+
+.technologies{
+    gap: 1vw;
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+}
