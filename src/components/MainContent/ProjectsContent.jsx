@@ -23,7 +23,7 @@ function ProjectsContent(){
                 : "Projects"}
                 </h1>
                 <p>{globalState ==="Portugues"
-                ? "Aqui você encontrará mais informações sobre alguns de meus projetos pessoas que já desenvolvi até agora!"
+                ? "Aqui você encontrará mais informações sobre alguns de meus projetos pessoais que já desenvolvi até agora!"
                 : "Here you'll find more information about the projects i've done until now!"}
                 </p>
             </div>
