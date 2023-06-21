@@ -82,3 +82,42 @@
     box-shadow: 0px 0px 5px #FFD369;
     background-color:#393E46;
 }
+
+@media (max-width: 600px) {
+    /* CSS rules */
+    
+        .title{
+            font-size: 4vh;
+            letter-spacing: 1.1vw;
+            height: 20vh;
+        }
+        
+        .picAndDescripParagraph{
+            font-size: 1.5vh;
+            margin-bottom: 5vh;
+            display: flex;
+            flex-direction: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .profilePicture img{
+            height: 200px;
+            border-radius: 2vh;
+            filter: grayscale(0.5);
+        }
+        
+        .homeDescription{
+            padding: 0 20px;
+        }
+
+        .button{
+            width: 100px;
+        }
+
+        .button:hover{
+            transform: scale(1);
+        }
+
+    }

@@ -32,3 +32,11 @@
     justify-content: flex-start;
     align-items: center;
 }
+
+@media (max-width: 600px) {
+    /* CSS rules */
+    .containerMainContent{
+        font-size: 1.4vh;
+    }
+
+    }

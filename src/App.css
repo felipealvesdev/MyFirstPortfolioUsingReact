@@ -5,3 +5,12 @@
   font-family: monospace;
   scroll-behavior: smooth;
 }
+
+
+@media (max-width: 600px) {
+  /* CSS rules */
+  .title{
+      overflow: hidden;
+  } 
+
+  }

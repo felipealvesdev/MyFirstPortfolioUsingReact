@@ -66,3 +66,33 @@
     transform: scale(1.05);
     transform: translateX(-1vw);
 }
+
+@media (max-width: 600px) {
+    /* CSS rules */
+        .containerNavbar{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 600px;
+        }
+
+        .logo{
+            margin-left: 0px;
+            width: 400px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .logo span{
+            margin-right: 40px;
+            border-radius: 1vh;
+            transition: all 300ms ease-in-out;
+        }
+
+        .navbar{
+            display: none;
+        }
+    }

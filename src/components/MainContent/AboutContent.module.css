@@ -49,8 +49,9 @@
     flex-wrap: nowrap;
     transition: all 300ms ease-in-out;
 }
+
 .containerGlobalGetToKnowMe:hover{
-    transform: scale(1.1);
+    transform: scale(1);
 }
 
 .card{
@@ -109,3 +110,43 @@
 .reactIcon:hover{
     transform: scale(1.2);
 }
+
+
+@media (max-width: 600px) {
+    /* CSS rules */    
+    .containerMainContent{
+        font-size: 1.4vh;
+    }
+
+    .containerAboutMe{
+        height: 50vh;
+    }
+
+    
+    .containerAboutMe h1{
+        padding-top: 15vh;
+        padding-bottom: 2vh;
+    }
+    
+    .containerAboutMe p{
+        padding-bottom: 20px;
+    }
+
+    .containerGlobalGetToKnowMe{
+        padding: 0 10vw;
+        padding-bottom: 100px;
+    }
+    
+    .card{
+        padding-top: 10vh;
+    }
+    
+        
+    .htmlIcon:hover,
+    .css3Icon:hover,
+    .jsIcon:hover,
+    .reactIcon:hover{
+        transform: scale(1);
+    }
+
+    }

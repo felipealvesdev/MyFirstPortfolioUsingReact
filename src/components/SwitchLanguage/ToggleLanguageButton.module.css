@@ -31,3 +31,24 @@
     transform: scale(1.3);
 }
 
+@media (max-width: 600px) {
+    /* CSS rules */
+    .globalContainer{
+        padding-left: 0;
+        width: 50px;
+    }
+
+    .toggleButton{
+        height: 40px;
+    }
+
+    .toggleButton img{
+        height: 30px;
+        width: 40px;
+    }
+    .toggleButton img:hover{
+        transform: scale(1.0);
+    }
+
+    }
+
