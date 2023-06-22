@@ -68,10 +68,14 @@
 
 @media (max-width: 600px) {
     /* CSS rules */
+    .containerFooter{
+        margin-top: 0vh;
+        padding-top: 0px;
+    }
     
     .containerFooter h1{
         margin-top: 6vh;
-        margin-bottom: 2vh;
+        margin-bottom: 0vh;
         padding: 0px 10px;
         font-size: 2vh;
     }

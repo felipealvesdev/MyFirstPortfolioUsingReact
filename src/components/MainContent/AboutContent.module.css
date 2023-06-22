@@ -116,6 +116,7 @@
     /* CSS rules */    
     .containerMainContent{
         font-size: 1.5vh;
+        min-height: 1100px;
     }
 
     .containerAboutMe{
@@ -124,7 +125,7 @@
 
     
     .containerAboutMe h1{
-        padding-top: 15vh;
+        padding-top: 0px;
         padding-bottom: 2vh;
         font-size: 2vh;
     }
@@ -135,12 +136,22 @@
     }
 
     .containerGlobalGetToKnowMe{
+        min-height: 500px;
+        padding-bottom: 0px;
         padding: 0 10vw;
         padding-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
     }
     
     .card{
-        padding-top: 10vh;
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
     }
     
     .card h1{

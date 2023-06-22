@@ -41,7 +41,9 @@ function ProjectsContent(){
                 code={"https://github.com/felipealvesdev/AppClima"}
                 techs={<><FaHtml5 /> <FaCss3 /> <FaJs /></>}
                 />
+            </div>
 
+            <div className={styles.projectCards}>
                 <ProjectCard
                 screen={screenCalculatorApp} 
                 title={globalState ==="Portugues"
@@ -54,7 +56,9 @@ function ProjectsContent(){
                 code={"https://github.com/felipealvesdev/AppCalculadora"}
                 techs={<><FaHtml5 /> <FaCss3 /> <FaJs /></>}
                 />
-                
+            </div>
+
+            <div className={styles.projectCards}>
                 <ProjectCard
                 screen={screenToDoListApp} 
                 title={globalState ==="Portugues"
@@ -67,8 +71,8 @@ function ProjectsContent(){
                 code={"https://github.com/felipealvesdev/AppToDoList"}
                 techs={<><FaHtml5 /> <FaCss3 /> <FaJs /> <FaReact /></>}
                 />
-
             </div>
+
         </div>
     )
 }
