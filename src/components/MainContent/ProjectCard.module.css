@@ -90,3 +90,31 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media (max-width: 600px) {
+    /* CSS rules */
+        .containerMainContent{
+            flex-direction: column;
+            height: 36vh;
+        }
+
+        .photoContainer img{
+            height: 100px;
+            width: 100px;
+        }
+                
+        .descriptionContainer h1{
+            font-style: italic;
+            font-size: 2vh;
+        }
+
+        .descriptionContainer p{
+            transition: all 300ms ease-in-out;
+            font-size: 1vh;
+        }
+        
+        .UpAndDownButton:hover{
+            transform: scale(1);
+        }
+    }
