@@ -10,7 +10,7 @@
 @media (max-width: 600px) {
   /* CSS rules */
   .title{
-      overflow: hidden;
+      overflow-x: hidden;
   } 
 
   }

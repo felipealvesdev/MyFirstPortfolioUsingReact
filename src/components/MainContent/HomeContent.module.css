@@ -85,9 +85,11 @@
 
 @media (max-width: 600px) {
     /* CSS rules */
-    
+        .containerMainContent{
+            max-width: 600px;
+            overflow: hidden;
+        }
         .title{
-            font-size: 4vh;
             letter-spacing: 1.1vw;
             height: 20vh;
         }
@@ -106,6 +108,9 @@
             height: 200px;
             border-radius: 2vh;
             filter: grayscale(0.5);
+        }
+        .picText{
+            font-size: 1.5vh;
         }
         
         .homeDescription{

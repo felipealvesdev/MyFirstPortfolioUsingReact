@@ -115,7 +115,7 @@
 @media (max-width: 600px) {
     /* CSS rules */    
     .containerMainContent{
-        font-size: 1.4vh;
+        font-size: 1.5vh;
     }
 
     .containerAboutMe{
@@ -126,10 +126,12 @@
     .containerAboutMe h1{
         padding-top: 15vh;
         padding-bottom: 2vh;
+        font-size: 2vh;
     }
     
     .containerAboutMe p{
         padding-bottom: 20px;
+        font-size: 1.5vh;
     }
 
     .containerGlobalGetToKnowMe{
@@ -141,6 +143,13 @@
         padding-top: 10vh;
     }
     
+    .card h1{
+        font-size: 2vh;
+    }
+    
+    .cardContent{
+        font-size: 1.5vh;
+    }
         
     .htmlIcon:hover,
     .css3Icon:hover,

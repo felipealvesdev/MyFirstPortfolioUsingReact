@@ -36,7 +36,13 @@
 @media (max-width: 600px) {
     /* CSS rules */
     .containerMainContent{
-        font-size: 1.4vh;
+        font-size: 1.5vh;
+    }
+    .projectDescription h1{
+        font-size: 2vh;
+    }
+    .projectDescription p{
+        font-size: 1.5vh;
     }
 
     }
