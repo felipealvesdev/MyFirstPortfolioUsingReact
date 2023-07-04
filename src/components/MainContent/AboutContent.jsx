@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './AboutContent.module.css'
-import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaJs, FaReact, FaGithub } from "react-icons/fa"
+import { SiNextdotjs, SiTypescript } from "react-icons/si"
 
 import { GlobalStateContext } from '../SwitchLanguage/EnglishSwitch';
 import { useContext } from "react";
@@ -49,6 +50,9 @@ function About(){
                         <span className={styles.css3Icon}><FaCss3 /></span>
                         <span className={styles.jsIcon}><FaJs /></span>
                         <span className={styles.reactIcon}><FaReact /></span>
+                        <span className={styles.nextIcon}><SiNextdotjs /></span>
+                        <span className={styles.githubIcon}><FaGithub /></span>
+                        <span className={styles.typescriptIcon}><SiTypescript /></span>
                     </div>
                 </div>
             </div>

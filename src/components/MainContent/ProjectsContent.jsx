@@ -4,8 +4,10 @@ import ProjectCard from "./ProjectCard";
 import screenWeatherApp from '../../pictures/screenAppClima.png'
 import screenCalculatorApp from '../../pictures/screenAppCalculadora.png'
 import screenToDoListApp from "../../pictures/screenAppToDoList.png"
+import screenAppPokedex from "../../pictures/screenAppPokedex.png"
 
 import {FaCss3, FaHtml5, FaJs , FaReact } from "react-icons/fa"
+import {SiNextdotjs} from "react-icons/si"
 
 import { GlobalStateContext } from '../SwitchLanguage/EnglishSwitch';
 import { useContext } from "react";
@@ -26,6 +28,21 @@ function ProjectsContent(){
                 ? "Aqui você encontrará mais informações sobre alguns de meus projetos pessoais que já desenvolvi até agora!"
                 : "Here you'll find more information about the projects i've done until now!"}
                 </p>
+            </div>
+
+            <div className={styles.projectCards}>
+                <ProjectCard
+                screen={screenAppPokedex} 
+                title={globalState ==="Portugues"
+                ? "Aplicativo de pokedex"
+                : "Pokedex App"}
+                description={globalState ==="Portugues"
+                ? "Aplicativo onde consumi uma API de informações sobre pokemons. Feito utilizando NextJs."
+                : "Pokemon App which i've used an API about pokemons to get the information. Made using NextJs."}
+                deploy={"https://pokedex-jbmw45izi-felipealvesdev.vercel.app/"}
+                code={"https://github.com/felipealvesdev/Pokedex"}
+                techs={<><FaHtml5 /> <FaCss3 /> <FaJs /> <FaReact /><SiNextdotjs /></>}
+                />
             </div>
 
             <div className={styles.projectCards}>

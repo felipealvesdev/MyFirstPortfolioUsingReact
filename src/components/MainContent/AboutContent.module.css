@@ -1,5 +1,5 @@
 .containerMainContent{
-    height: 93vh;
+    min-height: 93vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -104,10 +104,24 @@
     color:  #61dbfb;
 }
 
+.nextIcon{
+    color: #111;
+}
+
+.githubIcon{
+    color: #eee;
+}
+.typescriptIcon{
+    color: #007acc;
+}
+
 .htmlIcon:hover,
 .css3Icon:hover,
 .jsIcon:hover,
-.reactIcon:hover{
+.reactIcon:hover,
+.nextIcon:hover,
+.githubIcon:hover,
+.typescriptIcon:hover{
     transform: scale(1.2);
 }
 
@@ -166,7 +180,10 @@
     .htmlIcon:hover,
     .css3Icon:hover,
     .jsIcon:hover,
-    .reactIcon:hover{
+    .reactIcon:hover,
+    .nextIcon:hover,
+    .githubIcon:hover,
+    .typescriptIcon:hover{
         transform: scale(1);
     }
 
