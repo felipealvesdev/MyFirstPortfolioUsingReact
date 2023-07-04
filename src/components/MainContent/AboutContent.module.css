@@ -108,8 +108,8 @@
     color: #111;
 }
 
-.githubIcon{
-    color: #eee;
+.gitIcon{
+    color: #F1502F;
 }
 .typescriptIcon{
     color: #007acc;
@@ -120,7 +120,7 @@
 .jsIcon:hover,
 .reactIcon:hover,
 .nextIcon:hover,
-.githubIcon:hover,
+.gitIcon:hover,
 .typescriptIcon:hover{
     transform: scale(1.2);
 }
@@ -182,7 +182,7 @@
     .jsIcon:hover,
     .reactIcon:hover,
     .nextIcon:hover,
-    .githubIcon:hover,
+    .gitIcon:hover,
     .typescriptIcon:hover{
         transform: scale(1);
     }
