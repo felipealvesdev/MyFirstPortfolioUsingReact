@@ -5,9 +5,10 @@ import screenWeatherApp from '../../pictures/screenAppClima.png'
 import screenCalculatorApp from '../../pictures/screenAppCalculadora.png'
 import screenToDoListApp from "../../pictures/screenAppToDoList.png"
 import screenAppPokedex from "../../pictures/screenAppPokedex.png"
+import screenTicTacToeApp from "../../pictures/screenAppTicTacToe.png"
 
 import {FaCss3, FaHtml5, FaJs , FaReact } from "react-icons/fa"
-import {SiNextdotjs} from "react-icons/si"
+import {SiNextdotjs, SiTypescript} from "react-icons/si"
 
 import { GlobalStateContext } from '../SwitchLanguage/EnglishSwitch';
 import { useContext } from "react";
@@ -28,6 +29,21 @@ function ProjectsContent(){
                 ? "Aqui você encontrará mais informações sobre alguns de meus projetos pessoais que já desenvolvi até agora!"
                 : "Here you'll find more information about the projects i've done until now!"}
                 </p>
+            </div>
+
+            <div className={styles.projectCards}>
+                <ProjectCard
+                screen={screenTicTacToeApp} 
+                title={globalState ==="Portugues"
+                ? "Aplicativo de jogo da velha"
+                : "Tic-Tac-Toe App"}
+                description={globalState ==="Portugues"
+                ? "Aplicativo onde criei um jogo da velha para praticar lógica, React e Typescript."
+                : "Tic-tac-toe App which i've practiced my programming logic, React and Typescript."}
+                deploy={"https://jogo-da-velha-tic-tac-toe-typescript.vercel.app/"}
+                code={"https://github.com/felipealvesdev/jogoDaVelha-TicTacToe"}
+                techs={<><FaHtml5 /> <FaCss3 /> <FaJs /> <FaReact /><SiTypescript /></>}
+                />
             </div>
 
             <div className={styles.projectCards}>
