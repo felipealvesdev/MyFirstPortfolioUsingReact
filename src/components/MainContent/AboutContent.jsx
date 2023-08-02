@@ -36,7 +36,7 @@ function About(){
                     </h1>
                     <div className={styles.cardContent}>
                         <p>{globalState ==="Portugues"
-                            ? "Sou estudante de ADS do 2º período na Unifbv (EAD) e venho estudando principalmente as tecnologias para Web. Também sou formado técnico em redes de computadores. E outra curiosidade sobre mim: Falo inglês fluente. Sim, isso mesmo! Em 2016 eu fiz intercâmbio no Missouri durante quase 6 meses estudando na Maryville High School. Tudo pelo Governo de Pernambuco pelo Programa Ganhe o Mundo."
+                            ? "Sou estudante de ADS do 3º período na Unifbv (EAD) e venho estudando principalmente as tecnologias para Web. Também sou formado técnico em redes de computadores. E outra curiosidade sobre mim: Falo inglês fluente. Sim, isso mesmo! Em 2016 eu fiz intercâmbio no Missouri durante quase 6 meses estudando na Maryville High School. Tudo pelo Governo de Pernambuco pelo Programa Ganhe o Mundo."
                             : "Right now i'm a ASD student in the second semester studying it at Unifbv and it's a totally home office college, all the classes were previously recorded for us. I've been studying web technologies and focusing on the Frontend technologies. I've studied Computer Network in a technical school right after my High School and also, during 2016 i went to the USA on a Exchange program during one whole semester in the State of Missouri. I attended to Maryville High School and lived a normal american teenager routine."}
                         </p>
                     </div>
