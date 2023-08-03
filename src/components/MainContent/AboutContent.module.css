@@ -114,6 +114,9 @@
 .typescriptIcon{
     color: #007acc;
 }
+.javaIcon{
+    color: #f89820;
+}
 
 .htmlIcon:hover,
 .css3Icon:hover,
@@ -121,7 +124,8 @@
 .reactIcon:hover,
 .nextIcon:hover,
 .gitIcon:hover,
-.typescriptIcon:hover{
+.typescriptIcon:hover,
+.javaIcon:hover{
     transform: scale(1.2);
 }
 
@@ -183,7 +187,8 @@
     .reactIcon:hover,
     .nextIcon:hover,
     .gitIcon:hover,
-    .typescriptIcon:hover{
+    .typescriptIcon:hover,
+    .javaIcon:hover{
         transform: scale(1);
     }
 

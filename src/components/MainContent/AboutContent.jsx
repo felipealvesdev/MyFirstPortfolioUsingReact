@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './AboutContent.module.css'
-import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa"
+import { FaHtml5, FaCss3, FaJs, FaReact, FaJava } from "react-icons/fa"
 import { BsGit } from "react-icons/bs"
 import { SiNextdotjs, SiTypescript } from "react-icons/si"
 
@@ -37,7 +37,7 @@ function About(){
                     <div className={styles.cardContent}>
                         <p>{globalState ==="Portugues"
                             ? "Sou estudante de ADS do 3º período na Unifbv (EAD) e venho estudando principalmente as tecnologias para Web. Também sou formado técnico em redes de computadores. E outra curiosidade sobre mim: Falo inglês fluente. Sim, isso mesmo! Em 2016 eu fiz intercâmbio no Missouri durante quase 6 meses estudando na Maryville High School. Tudo pelo Governo de Pernambuco pelo Programa Ganhe o Mundo."
-                            : "Right now i'm a ASD student in the second semester studying it at Unifbv and it's a totally home office college, all the classes were previously recorded for us. I've been studying web technologies and focusing on the Frontend technologies. I've studied Computer Network in a technical school right after my High School and also, during 2016 i went to the USA on a Exchange program during one whole semester in the State of Missouri. I attended to Maryville High School and lived a normal american teenager routine."}
+                            : "Right now i'm a ASD student in the third semester studying it at Unifbv and it's a totally home office college, all the classes were previously recorded for us. I've been studying web technologies and focusing on the Frontend technologies. I've studied Computer Network in a technical school right after my High School and also, during 2016 i went to the USA on a Exchange program during one whole semester in the State of Missouri. I attended to Maryville High School and lived a normal american teenager routine."}
                         </p>
                     </div>
                 </div>
@@ -54,6 +54,7 @@ function About(){
                         <span className={styles.nextIcon}><SiNextdotjs /></span>
                         <span className={styles.gitIcon}><BsGit /></span>
                         <span className={styles.typescriptIcon}><SiTypescript /></span>
+                        <span className={styles.javaIcon}><FaJava /></span>
                     </div>
                 </div>
             </div>
