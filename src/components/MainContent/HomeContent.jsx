@@ -30,9 +30,9 @@ function MainContent(){
                     transition={{ ease: "backInOut", duration: 3}}
                     >
                         <h3>{globalState ==="Portugues" ?"Olá, tudo certo?": "Hello, How's it going?"}</h3>
-                        <h3>{globalState ==="Portugues" ?"Sou estudante de análise e desenvolvimento de sistemas no 2º período"
+                        <h3>{globalState ==="Portugues" ?"Sou estudante de análise e desenvolvimento de sistemas no 3º período"
                         : 
-                        "I'm a second semester student taking Analysis and Systems Development"}</h3>
+                        "I'm a third semester student taking Analysis and Systems Development"}</h3>
                     </motion.div>
                     </div>
                     
